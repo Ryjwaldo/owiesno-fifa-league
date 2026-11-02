@@ -15,7 +15,7 @@ import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase
 import {getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
 import {getFirestore,doc,onSnapshot,runTransaction} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
 // Wklej ustawienia z Firebase Console → Project settings → Your apps → Web app.
-const firebaseConfig = {apiKey:"AIzaSyBgOvw4fErMKYg7I9cskYX5lto-R4_u9Ks",authDomain:"owiesno-fifa-league.firebaseapp.com",projectId:"owiesno-fifa-league",storageBucket:"owiesno-fifa-league.firebasestorage.app",messagingSenderId:"489507863388",appId:"1:489507863388:web:70948144ad8a10905d9f99"};
+const firebaseConfig = {apiKey:"AIzaSyA-Jknem7zlTFgga9Qzi6IoFy7JFFEGuY8",authDomain:"owiesno-fifa-league.firebaseapp.com",projectId:"owiesno-fifa-league",storageBucket:"owiesno-fifa-league.firebasestorage.app",messagingSenderId:"489507863388",appId:"1:489507863388:web:70948144ad8a10905d9f99"};
 const names=['Ryjwaldo','Fantom','SzymS','Gołąb'];
 const defaults=['FC Barcelona','Liverpool','Bayern Monachium','Arsenal'];
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
